@@ -1,0 +1,46 @@
+/*estilos boton de perfil */
+#enter {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+/*Tamaño de la imagen del login*/
+#BartLog {
+    width: 30%;
+}
+/*Estilos del modal*/
+.modal-body {
+    text-align: center;
+    background-color: #a9c1c9;
+    border: black 2px solid;
+}
+.modal-header{
+    background-color: #e6e6e6;
+    border: black 2px solid;
+}
+.modal-footer{
+    background-color: #ceb1d5;
+    border: black 2px solid;
+}
+.inputText{
+    border: black 1.8px solid;
+    width: 60%;
+}
+#buttonLogin{
+    background-color: #ffc957;
+    border: black 2px solid;
+}
+/*fin de los estilos del modal*/
+
+/*estilos para que el modal quede al lado*/
+.modal.right.fade .modal-dialog {
+    right: -320px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+       -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+         -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+            transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+.modal.right.fade.in .modal-dialog {
+    right: 0;
+}

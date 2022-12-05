@@ -1,0 +1,19 @@
+.container-header, nav, .container-categories{
+    background-color: rgba(161, 191, 192, 0.933) ;
+}
+
+.carousel{
+    background-color: #FFBC42;
+}
+
+/* This for the desing of the nav-bar underline menu hover  */
+.nav-link:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(252, 248, 21);
+    size: 2px;
+}
+
+/* This is for the styles button 'pide ya' */
+.button{
+    border-radius: 15px;
+}

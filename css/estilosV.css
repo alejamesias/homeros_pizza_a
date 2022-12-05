@@ -1,0 +1,28 @@
+/*Estilos vista ana*/
+body{
+    background-color: #93827F;
+}
+.Logo{
+    margin-left: 50px;
+    margin-right: 700px;
+    width: 110px;
+}
+.ImgL{
+   float: left;
+   margin-left: -60px  ;
+   width: 530px;  
+}
+.ForL{
+    background-color: #F1F2F6;
+    border-radius: 2%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 15%;
+    width: 42%;
+    padding: 80px;
+}
+.btn-btn-primary{
+    --bs-btn-color: var(--bs-black);
+    --bs-btn-bg: var(--bd- #2E86AB);
+    
+}
