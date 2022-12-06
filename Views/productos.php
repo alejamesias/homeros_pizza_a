@@ -51,7 +51,7 @@ require '../controllers/productosController.php';
           </div>
           <div class="navbar-nav">
             <?php if (isset($_SESSION['usuario'])) :?>
-                <a href="Views/checkout.php" class="btn btn-primary">Carrito<span id="num_cart" class="badge bg-secondary"><?php echo $num_cart; ?></span></a>
+                <a href="checkout.php" class="btn btn-primary">Carrito<span id="num_cart" class="badge bg-secondary"><?php echo $num_cart; ?></span></a>
             <?php endif; ?>
             <?php if (isset($_SESSION['usuario'])) :?>
             <a
@@ -76,12 +76,12 @@ require '../controllers/productosController.php';
             <a
               type="button"
               class="btn btn-outline-warning ms-4"
-              href="Views/Registro.php"
+              href="Registro.php"
               style="color: #000"
             >
               Registrarse
             </a>
-            <a type="button" class="btn btn-warning ms-4" href="Views/login.php">
+            <a type="button" class="btn btn-warning ms-4" href="login.php">
               Iniciar Sesión
             </a>
             <?php endif; ?>
